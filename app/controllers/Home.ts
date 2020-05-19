@@ -6,8 +6,8 @@ export class Home extends Controller {
 
     /**
      * Set the output of index function
-     * @param {any || void}
-     * @return {any || void} abstract of index function
+     * @param {any}
+     * @return {any} abstract of index function
      */
 
     async index(ctx: any){
@@ -19,8 +19,8 @@ export class Home extends Controller {
 
     /**
      * Get the input of get function
-     * @param {any || void}
-     * @return {any || void} abstract of get function
+     * @param {any}
+     * @return {any} abstract of get function
      */
 
     async get(ctx: any){
@@ -32,8 +32,8 @@ export class Home extends Controller {
 
     /**
      * Post the input of post function
-     * @param {any || void}
-     * @return {any || void} abstract of post function
+     * @param {any}
+     * @return {any} abstract of post function
      */
 
     async post({request,response}: any){
@@ -51,8 +51,8 @@ export class Home extends Controller {
 
     /**
      * Edit the input of edit function
-     * @param {any || void}
-     * @return {any || void} abstract of edit function
+     * @param {any}
+     * @return {any} abstract of edit function
      */
 
     async edit({request,response,params}: any){
@@ -64,8 +64,8 @@ export class Home extends Controller {
 
     /**
      * Put the input of put function
-     * @param {any || void}
-     * @return {any || void} abstract of put function
+     * @param {any}
+     * @return {any} abstract of put function
      */
 
     async put({request,response,params}: any){
@@ -86,8 +86,8 @@ export class Home extends Controller {
 
     /**
      * Delete the input of delete function
-     * @param {any || void}
-     * @return {any || void} abstract of delete function
+     * @param {any}
+     * @return {any} abstract of delete function
      */
 
     async delete({request,response,params}: any){
